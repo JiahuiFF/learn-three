@@ -7,9 +7,14 @@ const router = createRouter({
     {
       path: '/',
       name: 'home',
-      component: HomeView
+      component: HomeView,
     },
-  ]
+    {
+      path: '/hello-world',
+      name: 'helloWorld',
+      component: () => import('@/views/HelloWorldView.vue'),
+    },
+  ],
 })
 
 export default router
