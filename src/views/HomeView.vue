@@ -3,6 +3,6 @@
 
 <template>
   <main>
-    Hello, world!
+    Hello, world!  test
   </main>
 </template>
