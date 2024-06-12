@@ -14,6 +14,11 @@ const router = createRouter({
       name: 'helloWorld',
       component: () => import('@/views/HelloWorldView.vue'),
     },
+    {
+      path: '/basic-geometry',
+      name: 'basicGeometry',
+      component: () => import('@/views/BasicGeometryView.vue'),
+    },
   ],
 })
 
