@@ -19,6 +19,11 @@ const router = createRouter({
       name: 'basicGeometry',
       component: () => import('@/views/BasicGeometryView.vue'),
     },
+    {
+      path: '/solar-system',
+      name: 'solarSystem',
+      component: () => import('@/views/SolarSystem.vue'),
+    },
   ],
 })
 
